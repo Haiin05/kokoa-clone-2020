@@ -26,33 +26,38 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
+      <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
+        <span class="badge badge__find"></span>
         <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="screenshots/09.png"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">KokoaTalk</h4>
-            <h6 class="user-component__subtitle">
-              Please check My Kokoa Account Info
-            </h6>
-          </div>
+      <div class="find-icons">
+        <div class="find-icons__icons">
+          <i class="fas fa-qrcode"></i>
+          <span>QR Code</span>
         </div>
-        <div class="user-component__column">
-          <span class="user-component__time">21:22</span>
-          <div class="badge">1</div>
+        <div class="find-icons__icons">
+          <i class="far fa-address-book"></i>
+          <span>Add by contacts</span>
         </div>
+        <div class="find-icons__icons">
+          <i class="fas fa-fingerprint"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="find-icons__icons">
+          <i class="far fa-envelope"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+      <div class="find-recommended">
+        <span class="find-recommended__header">Recommended Friends</span>
+        <span class="find-recommended__text">
+          You have no recommended friends.
+        </span>
       </div>
     </main>
 
