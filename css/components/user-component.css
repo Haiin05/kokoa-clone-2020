@@ -1,3 +1,6 @@
+.user-component {
+  justify-content: space-between;
+}
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -6,7 +9,7 @@
 .user-component__avatar {
   width: 70px;
   height: 70px;
-  border-radius: 25px;
+  border-radius: 30px;
   margin-right: 10px;
 }
 .user-component__title {
