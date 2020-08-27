@@ -1,0 +1,8 @@
+.more-icons {
+  border-bottom: none;
+  margin-top: 20px;
+}
+.icon-row more-icons-row {
+  display: flex;
+  flex-direction: column;
+}
