@@ -2,7 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  padding: 30px 10px;
+}
+.alt-screen__column {
+  width: 33%;
 }
 .alt-header__title {
   font-size: 28px;
@@ -10,6 +13,14 @@
 .alt-screen__column:first-child {
   margin-right: auto;
 }
+.alt-screen__column:nth-child(2) {
+  text-align: center;
+}
 .alt-screen__column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.alt-screen__column span:last-child {
+  margin-left: 20px;
 }
