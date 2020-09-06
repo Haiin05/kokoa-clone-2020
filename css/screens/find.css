@@ -92,3 +92,16 @@
 .open-post__heart i {
   margin-right: 3px;
 }
+@keyframes heartAnimation {
+  from {
+    transform: scale(2);
+    color: tomato;
+  }
+  to {
+    color: white;
+  }
+}
+.open-post__heart:hover i {
+  will-change: transform;
+  animation: heartAnimation 0.8s linear infinite;
+}
